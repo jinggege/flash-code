@@ -1,0 +1,271 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0014)about:internet -->
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"> 
+    <head>
+        <title>${title}</title>
+        <meta name="google" value="notranslate" />         
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+       
+
+
+        <style type="text/css" media="screen"> 
+            html, body  { height:100%; margin: 0; padding: 0;}
+            body{background-color: #aaaaaa;}
+            object{display:block;}
+            object:focus { outline:none; }
+            div{margin: 0; padding: 0; display: block;}
+
+            .root
+            {
+                width: 100%;
+                height: 100%;
+            }
+
+            .root .container
+            {
+                width: 1200px;
+                height: 800px;
+                margin: 0 auto;
+            }
+
+            .container .con-l
+            {
+                width: 100px;
+                height: 800px;
+                border-radius: 5px 5px 5px 5px;
+                background-color: #FFFFFF;
+                float: left;
+            }
+
+            .container .con-m
+            {
+                width: 800px;
+                height: 800px;
+                background-color: #FFFFFF;
+                margin: 0 10px;
+                float: left;
+            }
+
+
+            .con-m .con-m-roominfo
+            {
+                width: 800px;
+                height: 80px;
+            }
+
+            .con-m-roominfo span
+            {
+                font-size: 40px;
+                font-weight: bold;
+                display: block;
+                padding: 5px 5px;
+                text-shadow: 2px 2px 2px #aaaaaa;
+
+            }
+
+            .con-m .con-m-player
+            {
+                width: 800px;
+                height: 400px;
+                background-color: #000000;
+                border-radius: 5px 5px 5px 5px;
+            }
+
+            .con-m .con-m-effect
+            {
+            	background:#333333;
+                width: 540px;
+                height: 450px;
+            }
+
+
+            .container .con-r
+            {
+                width: 100px;
+                height: 800px;
+                border-radius: 5px 5px 5px 5px;
+                background-color: #FFFFFF;
+                float: left;
+            }
+            
+            .giftList {
+          		/*float:left;*/
+          	}
+          	
+          	#con-gift ul {
+          		list-style:none;
+          		display:inline;
+          	}
+          	
+          	#con-gift ul li {
+          		display:inline;
+          		padding:10px;
+          	}
+          	
+          	#con-gift ul li img {
+          		background-color: rgba(127,127,127,0.5);
+          		
+          	}
+          	
+          	#con-gift ul li img:hover {
+          		background-color: rgba(127,16,16,0.5);
+          	}
+          	
+          	
+          	#con-gift  {
+          		/*margin: 0 auto;*/
+          		padding: 20px;
+          		position: fixed;
+          		top: 100px;
+          		right: 20px;
+          	}
+          	
+          	#con-oprt {
+          		position:relative;
+          		left: 200px;
+          	}
+
+        </style>
+        
+        <script type="text/javascript" src="swfobject.js"></script>
+        <script type="text/javascript" src="res/jquery-1.11.1.min.js"></script>
+       <script type="text/javascript">
+            // For version detection, set to min. required Flash Player version, or 0 (or 0.0.0), for no version detection. 
+            var swfVersionStr = "${version_major}.${version_minor}.${version_revision}";
+            // To use express install, set to playerProductInstall.swf, otherwise the empty string. 
+            var xiSwfUrlStr = "${expressInstallSwf}";
+            var flashvars = {};
+            var params = {};
+            params.quality = "high";
+            params.allowscriptaccess = "always";
+            params.allowfullscreen = "true";
+            params.wmode="transparent";
+            var attributes = {};
+            attributes.id = "ID_EFFECT";
+            attributes.name = "ID_EFFECT";
+            attributes.align = "middle";
+            
+            swfobject.embedSWF(
+                "${swf}.swf", "flashContent", 
+                "100%", "100%", 
+                swfVersionStr, xiSwfUrlStr, 
+                flashvars, params, attributes);
+
+        </script>
+        
+
+        
+        
+    </head>
+    <body>
+
+       <div class="root">
+           <div class="container">
+               <div class="con-l">
+
+               </div>
+               <div class="con-m">
+                   <div class="con-m-roominfo">
+                        <span> ROOM EFFECT</span>
+                   </div>
+
+                   <div class="con-m-player">
+
+                   </div>
+
+                   <div class="con-m-effect">
+                        <div class="flashContent" id="flashContent">
+
+                        </div>
+                   </div>
+
+               </div>
+               <div class="con-r">
+
+               </div>
+               
+               <div id= "con-gift">
+		        	<ul class="giftList" id="giftList">
+						<li class="gift" data-imgUrl="redheart1_80_80.png">
+							<img src="redheart1_80_80.png">
+						</li>
+						
+						<li class="gift" data-imgUrl="lmhs1_80_80.png">
+							<img src="lmhs1_80_80.png">
+						</li>
+						
+						<li class="gift" data-imgUrl="colorrose1_80_80.png">
+							<img src="colorrose1_80_80.png">
+						</li>
+						
+						<li class="gift" data-imgUrl="mf_80_80.png">
+							<img src="mf_80_80.png">
+						</li>
+						
+						<li class="gift" data-imgUrl="app_watermelon_80_80.png">
+							<img src="app_watermelon_80_80.png">
+						</li>
+						
+					</ul>
+					
+					 <div id= "con-oprt">
+		        		<input type="text" class="giftCount" id="giftCount" value="1"> </input>
+		        		<!-- <button id="giftBtn">送礼物</button> -->
+		       		 </div>
+		        </div>
+
+
+           </div>
+
+       </div>
+
+   </body>
+   
+   <script type="text/javascript">
+   		window.onload = function () {
+	   		
+	   		var giftList = document.getElementById("giftList");	   		
+			var len = giftList.childNodes.length;
+			for (var i=0; i<len; ++i) {
+				var liChild = giftList.childNodes[i];
+				if (liChild.nodeType == 1 && liChild.getAttribute("class")=="gift" )
+				{
+					liChild.onclick = function () {
+						var imgUrl = this.getAttribute("data-imgUrl");
+   						sendGift(imgUrl);
+   					}
+				}
+			}
+   		}
+   		
+   		var onClickBtn = function () {
+   			var swf = document.getElementById("ID_EFFECT");
+   			var input = document.getElementById("giftCount");
+   			swf.sendGift({imgUrl:"redheart1_80_80.png", count:input.value} );
+   		}
+   		
+   		var sendGift = function (imgUrl) {
+   			var swf = document.getElementById("ID_EFFECT");
+   			var input = document.getElementById("giftCount");
+   			var swfInfo = {type:1};
+   			swf.sendGift({imgUrl80:imgUrl, count:input.value, swfInfo:swfInfo} );
+   		}
+   		
+   		/*
+   		window.onresize = function () {
+   			//var swfArea = document.getElementById("swfArea");
+   			var w = document.body.clientWidth;
+   			var h = document.body.clientHeight;
+   			
+   			console.log(w,h);
+   			
+   			var swf = document.getElementById("LfSecondary");
+   			//swf.setStyle("height", h+"px");
+   			//swf.setStyle("width",  h/16*9 + "px");
+   			//swf.style.height = h + "px";
+   			//swf.style.width = h/16*9 + "px";  			
+   			
+   		}*/
+   
+   </script>
+</html>

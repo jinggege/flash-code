@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<actionScriptProperties analytics="false" mainApplicationPath="main/StageEffectV.as" projectUUID="3e35444c-30bb-40c4-9c87-c4175491f83a" version="10">
+  <compiler additionalCompilerArguments="-locale en_US" autoRSLOrdering="true" copyDependentFiles="true" fteInMXComponents="false" generateAccessible="true" htmlExpressInstall="true" htmlGenerate="true" htmlHistoryManagement="true" htmlPlayerVersionCheck="true" includeNetmonSwc="false" outputFolderPath="bin-debug" removeUnusedRSL="true" sourceFolderPath="src" strict="true" targetPlayerVersion="0.0.0" useApolloConfig="false" useDebugRSLSwfs="true" verifyDigests="true" warn="true">
+    <compilerSourcePath/>
+    <libraryPath defaultLinkType="1">
+      <libraryPathEntry kind="4" path="">
+        <excludedEntries>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation_charts.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="1" linkType="1" path="${PROJECT_FRAMEWORKS}/locale/{locale}"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/advancedgrids.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/qtp.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation_air.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/charts.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/framework.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/mx/mx.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/netmon.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/spark.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/sparkskins.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/rpc.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/datavisualization.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/qtp_air.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/videoPlayer.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/spark_dmv.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation_dmv.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/flash-integration.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation_flashflexkit.swc" useDefaultLinkType="false"/>
+          <libraryPathEntry kind="3" linkType="1" path="${PROJECT_FRAMEWORKS}/libs/automation_agent.swc" useDefaultLinkType="false"/>
+        </excludedEntries>
+      </libraryPathEntry>
+      <libraryPathEntry kind="1" linkType="1" path="libs"/>
+    </libraryPath>
+    <sourceAttachmentPath/>
+  </compiler>
+  <applications>
+    <application path="main/StageEffectV.as"/>
+  </applications>
+  <modules>
+    <module application="src/main/StageEffectV.as" destPath="child/version_2015_9/EEShip20159V.swf" optimize="false" sourcePath="src/child/version_2015_9/EEShip20159V.as"/>
+    <module application="src/main/StageEffectV.as" destPath="child/skateboard/StageSkateboardV.swf" optimize="false" sourcePath="src/child/skateboard/StageSkateboardV.as"/>
+    <module application="src/main/StageEffectV.as" destPath="child/shopping/EnterEffectCar4V.swf" optimize="false" sourcePath="src/child/shopping/EnterEffectCar4V.as"/>
+    <module application="src/main/StageEffectV.as" destPath="child/girlshow/GirlInStageV.swf" optimize="false" sourcePath="src/child/girlshow/GirlInStageV.as"/>
+    <module application="src/main/StageEffectV.as" destPath="child/airship/StageAirshipV.swf" optimize="false" sourcePath="src/child/airship/StageAirshipV.as"/>
+    <module application="src/main/StageEffectV.as" destPath="child/shopping/EnterEffectCar1V.swf" optimize="false" sourcePath="src/child/shopping/EnterEffectCar1V.as"/>
+    <module application="src/main/StageEffectV.as" destPath="child/finalweapon/EEFinalWeaponV.swf" optimize="false" sourcePath="src/child/finalweapon/EEFinalWeaponV.as"/>
+    <module application="src/main/StageEffectV.as" destPath="child/boyshow/BoyInStageV.swf" optimize="false" sourcePath="src/child/boyshow/BoyInStageV.as"/>
+    <module application="src/main/StageEffectV.as" destPath="child/christmas/EnterEffectChristmas2V.swf" optimize="false" sourcePath="src/child/christmas/EnterEffectChristmas2V.as"/>
+    <module application="src/main/StageEffectV.as" destPath="child/horse/StageHorseV.swf" optimize="false" sourcePath="src/child/horse/StageHorseV.as"/>
+    <module application="src/main/StageEffectV.as" destPath="child/shopping/EnterEffectCar2V.swf" optimize="false" sourcePath="src/child/shopping/EnterEffectCar2V.as"/>
+    <module application="src/main/StageEffectV.as" destPath="child/shopping/EnterEffectCar3V.swf" optimize="false" sourcePath="src/child/shopping/EnterEffectCar3V.as"/>
+    <module application="src/main/StageEffectV.as" destPath="child/version_2015_4/EEDeer1V.swf" optimize="false" sourcePath="src/child/version_2015_4/EEDeer1V.as"/>
+    <module application="src/main/StageEffectV.as" destPath="child/version_2015_4/EEDeer2V.swf" optimize="false" sourcePath="src/child/version_2015_4/EEDeer2V.as"/>
+    <module application="src/main/StageEffectV.as" destPath="child/flyrug/StageFlyrugV.swf" optimize="false" sourcePath="src/child/flyrug/StageFlyrugV.as"/>
+    <module application="src/main/StageEffectV.as" destPath="child/version_2015_4/EEBirdV.swf" optimize="false" sourcePath="src/child/version_2015_4/EEBirdV.as"/>
+    <module application="src/main/StageEffectV.as" destPath="child/christmas/EnterEffectChristmas1V.swf" optimize="false" sourcePath="src/child/christmas/EnterEffectChristmas1V.as"/>
+    <module application="src/main/StageEffectV.as" destPath="child/dragonboat/EEDragonBoatV.swf" optimize="false" sourcePath="src/child/dragonboat/EEDragonBoatV.as"/>
+    <module application="src/main/StageEffectV.as" destPath="child/shopping/EnterEffectCar6V.swf" optimize="false" sourcePath="src/child/shopping/EnterEffectCar6V.as"/>
+    <module application="src/main/StageEffectV.as" destPath="child/shouhu/StageShLowV.swf" optimize="false" sourcePath="src/child/shouhu/StageShLowV.as"/>
+    <module application="src/main/StageEffectV.as" destPath="child/valentines/EnterEffectValentinesV.swf" optimize="false" sourcePath="src/child/valentines/EnterEffectValentinesV.as"/>
+    <module application="src/main/StageEffectV.as" destPath="child/superman/StageSupermanV_1.swf" optimize="false" sourcePath="src/child/superman/StageSupermanV_1.as"/>
+    <module application="src/main/StageEffectV.as" destPath="child/shouhu/StageShHeightV.swf" optimize="false" sourcePath="src/child/shouhu/StageShHeightV.as"/>
+    <module application="src/main/StageEffectV.as" destPath="child/version_2015_4/EEShip20154V.swf" optimize="false" sourcePath="src/child/version_2015_4/EEShip20154V.as"/>
+    <module application="src/main/StageEffectV.as" destPath="child/crazyskiing/EECrazySkiingV.swf" optimize="false" sourcePath="src/child/crazyskiing/EECrazySkiingV.as"/>
+    <module application="src/main/StageEffectV.as" destPath="child/shopping/EnterEffectCar5V.swf" optimize="false" sourcePath="src/child/shopping/EnterEffectCar5V.as"/>
+  </modules>
+  <buildCSSFiles/>
+  <flashCatalyst validateFlashCatalystCompatibility="false"/>
+</actionScriptProperties>
