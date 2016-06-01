@@ -24,7 +24,7 @@ package com.laifeng
 	 * Log :  此版本对外提供
 	 * 
 	 *    2015_8 _19
-	 *               1. 添加金喇叭功能
+	 *               1. 添加金喇叭功能 
 	 * 
 	 ***********************************************************/
     
@@ -45,7 +45,6 @@ package com.laifeng
 				jsNameSpace = LiveConfig.get.jsNameSpace;
 			}
 			
-			
 			LiveConfig.get.jsNameSpace = jsNameSpace+".";
 			
 			LFExtenrnalInterface.get.start();
@@ -58,11 +57,9 @@ package com.laifeng
 			ExternalInterface.addCallback("init",init);
 			
 			ExternalInterface.call(LiveConfig.get.jsNameSpace+"playerLoadCompleted");
-			
         }
 		
         public function init(option : Object):int{
-			
 			_dmCenter = DataModule.get.getModule(ModuleKey.DM_LIVECORE) as DMCenter;
 			_dmCenter.initConfig(option);
 			UIManage.get.playerInited();
